@@ -85,7 +85,6 @@ main {
 }
 
 .button-text {
-    background-color:#26282B;
     color:#EEEEEE;
     text-align:center;
     border:2px solid #5F85DB; 
@@ -145,5 +144,30 @@ footer {
 
 .text {
     text-align:center;
+}
+
+#c-for-everyone,#py-4-e,#data-struct {
+    background-color:#222831;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:20px;
+    border:3px solid #5F85DB;
+    border-radius:5%;
+
+}
+
+.boxes > a:hover {
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.image {
+    margin:auto;
+}
+
+.caption {
+    text-align:left;
 }
 
