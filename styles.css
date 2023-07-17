@@ -1,0 +1,149 @@
+.code {
+    text-align:center;
+    font-family:'Source Code Pro', monospace;
+}
+body {
+    background-color:#26282B;
+    max-width:100vw;
+    font-family:sans-serif;
+    color:white;
+    box-sizing:border-box;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+header {
+    background-color:#26282B;
+    display:flex;
+    justify-content:space-between;
+}
+
+ a {
+    color:white;
+    text-decoration:none;
+}
+
+.research {
+    text-decoration:underline;
+}
+
+a:hover {
+    color:#5F85DB;
+    text-decoration:underline;
+}
+
+.navigation {
+    display:flex;
+    flex-direction:row;
+    gap:25px;
+    padding:50px;
+    margin:auto;
+    margin-right:30px;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+}
+
+#logo {
+    max-width:100px;
+    padding:10px;
+    margin-left:5%;
+}
+
+main {
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    flex-direction:column;
+    margin:auto;
+    justify-content:space-around;
+}
+
+.row1 {
+    display:flex;
+    max-width:100%;
+    gap:20px;
+    padding:20px;
+    margin:auto;
+    flex-wrap:wrap;
+}
+
+#intro {
+    border:3px solid #5F85DB;
+    max-width:40%;
+    padding:30px;
+    color:#EEEEEE;
+    border-radius:10px;
+    text-align:justify;
+    margin-left:15%;
+
+}
+
+.button-text {
+    background-color:#26282B;
+    color:#EEEEEE;
+    text-align:center;
+    border:2px solid #5F85DB; 
+    width:100%;
+    padding:5px;
+    border-radius:10px;
+}
+
+.button {
+    box-sizing:border-box;
+    margin-top:10%;
+    margin-bottom:10%;
+    display:flex;
+    justify-content:space-around;
+    margin-right:50%;
+}
+
+.button-text:hover {
+    background-color:#36383B;
+    color:#EEEEEE;
+    text-decoration:none;
+}
+
+#my-pic {
+    border-radius:5px;
+    max-width:30%;
+    padding:0;
+    color:#EEEEEE;
+    border-radius:10px;
+    text-align:justify;
+    margin-right:10%;
+
+}
+
+footer {
+ margin-bottom:0;
+ max-width:100%;
+ padding:20px;
+ text-align:center;
+ background-color:#303030;
+    
+}
+
+.socials {
+    display:flex;
+    flex-direction:row;
+    max-width:100%;
+    margin:auto;
+    flex-wrap:wrap;
+}
+
+.linkedin, .instagram, .github {
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.text {
+    text-align:center;
+}
+
