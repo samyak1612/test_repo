@@ -58,13 +58,14 @@ header {
 main {
     display:flex;
     gap:20px;
+    max-width:100%;
     flex-wrap:wrap;
     flex-direction:column;
     margin:auto;
     justify-content:space-around;
 }
 
-.row1 {
+.row1,.row2 {
     display:flex;
     max-width:100%;
     gap:20px;
@@ -75,16 +76,17 @@ main {
 
 #intro {
     border:3px solid #5F85DB;
-    max-width:40%;
+    width:40%;
     padding:30px;
     color:#EEEEEE;
-    border-radius:10px;
+    border-radius:5%;
     text-align:justify;
     margin-left:15%;
 
 }
 
 .button-text {
+    background-color:#26282B;
     color:#EEEEEE;
     text-align:center;
     border:2px solid #5F85DB; 
@@ -103,7 +105,6 @@ main {
 }
 
 .button-text:hover {
-    background-color:#36383B;
     color:#EEEEEE;
     text-decoration:none;
 }
@@ -120,6 +121,7 @@ main {
 }
 
 footer {
+ margin-top:10%;
  margin-bottom:0;
  max-width:100%;
  padding:20px;
@@ -146,7 +148,7 @@ footer {
     text-align:center;
 }
 
-#c-for-everyone,#py-4-e,#data-struct {
+.c1,.c2 {
     background-color:#222831;
     width:250px;
     display:flex;
@@ -157,6 +159,12 @@ footer {
     border-radius:5%;
 
 }
+
+.c2 > .caption {
+    margin-top:75px;
+}
+
+
 
 .boxes > a:hover {
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
@@ -169,5 +177,10 @@ footer {
 
 .caption {
     text-align:left;
+    margin-top:15px;
+}
+
+.lt {
+    margin-top:0;
 }
 
