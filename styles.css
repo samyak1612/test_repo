@@ -1,6 +1,7 @@
 .code {
     text-align:center;
-    font-family:'Source Code Pro', monospace;
+    font-family:'Source Sans 3', sans-serif;
+    
 }
 body {
     background-color:#26282B;
@@ -19,6 +20,10 @@ header {
     background-color:#26282B;
     display:flex;
     justify-content:space-between;
+}
+
+.big {
+    font-size:40px;
 }
 
  a {
@@ -44,11 +49,6 @@ a:hover {
     margin-right:30px;
 }
 
-header {
-    display:flex;
-    justify-content:space-between;
-}
-
 #logo {
     max-width:100px;
     padding:10px;
@@ -65,6 +65,12 @@ main {
     justify-content:space-around;
 }
 
+h1 {
+    font-family:'Source Sans 3',sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 .row1,.row2 {
     display:flex;
     max-width:100%;
@@ -77,6 +83,7 @@ main {
 #intro {
     border:3px solid #5F85DB;
     width:40%;
+    min-width:40%;
     padding:30px;
     color:#EEEEEE;
     border-radius:5%;
@@ -111,8 +118,8 @@ main {
 
 #my-pic {
     border-radius:5px;
+    padding:20px;
     max-width:30%;
-    padding:0;
     color:#EEEEEE;
     border-radius:10px;
     text-align:justify;
